@@ -1,0 +1,17 @@
+{
+	"name": "ordinal-concept",
+	"version": "0.0.0",
+	"private": true,
+	"type": "module",
+	"scripts": {
+		"dev": "vite --host 127.0.0.1",
+		"build": "vite build",
+		"check-types": "tsc --noEmit",
+		"lint": "biome check index.html src --diagnostic-level=error"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "1.9.4",
+		"typescript": "5.9.2",
+		"vite": "^6.4.3"
+	}
+}
